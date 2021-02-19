@@ -1,0 +1,72 @@
+--f86cf84f-A--
+[18/Feb/2021:16:09:06 +0900] YC4Skn8AAQEAADQviGMAAAAD 192.168.0.2 2528 192.168.0.6 80
+--f86cf84f-B--
+GET /main/pims/notice;jsessionid=2000a8bcee2d7d51e363f00ae61c0f8e/?boardid=bbs_0000000000000002&category=%ea%b0%80%ec%9d%b4%eb%93%9c&cntid=10&mode=view HTTP/1.1
+Host: 192.168.0.6
+Accept: */*
+User-agent: IP0185955 - - [22/Oct/2018:01:39:58 +0900] "GET /main/pims/notice;jsessionid=2000a8bcee2d7d51e363f00ae61c0f8e/?boardid=bbs_0000000000000002&category=%ea%b0%80%ec%9d%b4%eb%93%9c&cntid=10&mode=view HTTP/1.1" 200 24716
+
+--f86cf84f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 276
+Content-Type: text/html; charset=iso-8859-1
+
+--f86cf84f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+<hr>
+<address>Apache/2.4.18 (Ubuntu) Server at 192.168.0.6 Port 80</address>
+</body></html>
+
+--f86cf84f-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(?i:(?:[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98]\\s*?\\*.+(?:x?or|div|like|between|and|id)\\W*?[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98]\\d)|(?:\\^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98])|(?:^[\\w\\s\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98-]+(?<=and\\s)(?<=or|xor ..." at ARGS:category. [file "/usr/share/modsecurity-crs/activated_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "245"] [id "981243"] [msg "Detects classic SQL injection probings 2/2"] [data "Matched Data: \x80\xec\x9d\xb4 found within ARGS:category: \xea\xb0\x80\xec\x9d\xb4\xeb\x93\x9c"] [severity "CRITICAL"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"]
+Action: Intercepted (phase 2)
+Stopwatch: 1613632146739562 992 (- - -)
+Stopwatch2: 1613632146739562 992; combined=467, p1=21, p2=425, p3=0, p4=0, p5=21, sr=0, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "ENABLED"
+
+--f86cf84f-Z--
+
+--bbea523a-A--
+[18/Feb/2021:16:09:08 +0900] YC4SlH8AAQEAADQwMI4AAABB 192.168.0.2 2535 192.168.0.6 80
+--bbea523a-B--
+GET /main/isms/notice;jsessionid=0a7e45394a0401280e138e88dde7b6a2/?boardid=bbs_0000000000000001&category=%ea%b0%80%ec%9d%b4%eb%93%9c&cntid=46&mode=view HTTP/1.1
+Host: 192.168.0.6
+Accept: */*
+User-agent: IP0186067 - - [22/Oct/2018:02:20:14 +0900] "GET /main/isms/notice;jsessionid=0a7e45394a0401280e138e88dde7b6a2/?boardid=bbs_0000000000000001&category=%ea%b0%80%ec%9d%b4%eb%93%9c&cntid=46&mode=view HTTP/1.1" 200 24571
+
+--bbea523a-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 276
+Content-Type: text/html; charset=iso-8859-1
+
+--bbea523a-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+<hr>
+<address>Apache/2.4.18 (Ubuntu) Server at 192.168.0.6 Port 80</address>
+</body></html>
+
+--bbea523a-H--
+Message: Access denied with code 403 (phase 2). Pattern match "(?i:(?:[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98]\\s*?\\*.+(?:x?or|div|like|between|and|id)\\W*?[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98]\\d)|(?:\\^[\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98])|(?:^[\\w\\s\"'`\xc2\xb4\xe2\x80\x99\xe2\x80\x98-]+(?<=and\\s)(?<=or|xor ..." at ARGS:category. [file "/usr/share/modsecurity-crs/activated_rules/modsecurity_crs_41_sql_injection_attacks.conf"] [line "245"] [id "981243"] [msg "Detects classic SQL injection probings 2/2"] [data "Matched Data: \x80\xec\x9d\xb4 found within ARGS:category: \xea\xb0\x80\xec\x9d\xb4\xeb\x93\x9c"] [severity "CRITICAL"] [tag "OWASP_CRS/WEB_ATTACK/SQL_INJECTION"]
+Action: Intercepted (phase 2)
+Stopwatch: 1613632148255518 826 (- - -)
+Stopwatch2: 1613632148255518 826; combined=420, p1=22, p2=379, p3=0, p4=0, p5=19, sr=0, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "ENABLED"
+
+--bbea523a-Z--
+

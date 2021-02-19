@@ -1,0 +1,8 @@
+IP0191450 - - [22/Oct/2018:10:13:11 +0900] "GET /etc/passwd HTTP/1.1" 302 -
+IP0002022 - - [22/Oct/2018:00:00:03 +0900] "GET / HTTP/1.1" 302 -
+IP0114300 - - [22/Oct/2018:18:50:24 +0900] "GET /main/0006/apply/?searchCondition=&searchKeyword=&jrntIng=&pageIndex=7&startDate=&endDate= HTTP/1.1" 200 27879
+IP0155623 - - [22/Oct/2018:00:01:56 +0900] "POST /exeLogin.do HTTP/1.1" 302 -
+IP0007987 - - [22/Oct/2018:00:14:39 +0900] "POST /board/ajax/file/downloadCount.do?fileId=FILE_000000000000385 HTTP/1.1" 200 34
+IP0005377 - - [01/May/2017:07:09:03 +0900] "POST /lms/course/progress.jsp?domain=isms.kisa.or.kr&type=&cid=CT00000006&crsid=CRS00000009&cuid=1581&idx=1 HTTP/1.1" 200 -
+IP0191450 - - [22/Oct/2018:10:20:36 +0900] "GET /main/pims/notice/?boardId=bbs_0000000000000002&mode=view&cntId=/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/boot.ini&category=%EC%9E%90%EB%A3%8C&pageIdx= HTTP/1.1" 200 25128
+IP0191450 - - [22/Oct/2018:10:20:36 +0900] "GET /main/pims/notice/?boardId=bbs_0000000000000002&mode=view&cntId=12&category=%EC%9E%90%EB%A3%8C&pageIdx= HTTP/1.1" 200 26294
